@@ -7,7 +7,7 @@ Password Protection using FPDF
     require('fpdf_protection.php');
     
     $pdf=new FPDF_Protection();
-    $pdf->SetProtection(array('print'),'password');
+    $pdf->SetProtection(array(),'password');
     //$pdf->SetProtection(array('print'));
     $pdf->AddPage();
     $pdf->SetFont('Arial');
